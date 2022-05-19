@@ -67,3 +67,5 @@ y_data = list(zip(*plot_data[:10]))[1]
 plt_bar = plt.bar(x_data, y_data, width=0.35, color="black", tick_label=x_data) 
 plt.bar_label(plt_bar, label_type="edge")
 plt.show()
+
+# 테스트용
